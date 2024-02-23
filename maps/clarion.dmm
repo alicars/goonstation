@@ -5327,6 +5327,10 @@
 /obj/disposalpipe/trunk{
 	dir = 8
 	},
+/obj/landmark/start/job/rancher,
+/obj/stool/chair/green{
+	dir = 8
+	},
 /turf/simulated/floor/grass/leafy,
 /area/station/ranch)
 "awT" = (
@@ -25241,11 +25245,7 @@
 /turf/simulated/floor/carpet/grime,
 /area/station/security/detectives_office)
 "ijv" = (
-/obj/stool/chair/green{
-	dir = 4
-	},
 /obj/railing/orange/reinforced,
-/obj/landmark/start/job/rancher,
 /obj/machinery/light_switch/west{
 	dir = 4
 	},
