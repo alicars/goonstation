@@ -139,7 +139,10 @@
 
 	if(world.time >= can_exit_hivemind_time && hivemind_owner && hivemind_owner.master != src)
 		boutput(src, SPAN_ALERT("You have parted with the hivemind."))
+		src.mind?.get_player()?.dnr = TRUE
 		src.mind?.remove_antagonist(ROLE_CHANGELING_HIVEMIND_MEMBER)
+
+
 	else
 		boutput(src, SPAN_ALERT("You are not able to part from the hivemind at this time. You will be able to leave in [(can_exit_hivemind_time/10 - world.time/10)] seconds."))
 
